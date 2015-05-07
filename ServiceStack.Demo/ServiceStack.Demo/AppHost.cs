@@ -1,4 +1,5 @@
 ﻿using Funq;
+using ServiceStack.Web;
 using ServiceStack.Demo.ServiceModel;
 using ServiceStack.Demo.ServiceInterface;
 
@@ -27,12 +28,17 @@ namespace ServiceStack.Demo
             //this.Plugins.Add(new PostmanFeature());
             //this.Plugins.Add(new CorsFeature());
 
+            this.RegisterTypedResponseFilter<ApiBaseResponse>((req, res, apiRes) =>
+            {
+
+            });
+
             this.ServiceExceptionHandlers.Add((req, reqDto, ex) =>
             {
                 var apiEx = ex as ApiException;
                 if (apiEx != null)
                 {
-                    return new ApiResponse { Code = apiEx.Code, Message = apiEx.Message };
+                    return new ErrorApiResponse { Code = apiEx.Code, Message = apiEx.Message };
                 }
 
                 return DtoUtils.CreateErrorResponse(req, ex);
