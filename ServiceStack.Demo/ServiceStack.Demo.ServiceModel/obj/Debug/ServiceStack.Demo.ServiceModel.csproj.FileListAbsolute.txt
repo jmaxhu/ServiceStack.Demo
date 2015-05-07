@@ -1,0 +1,6 @@
+E:\Github\ServiceStack.Demo\ServiceStack.Demo\ServiceStack.Demo.ServiceModel\bin\Debug\ServiceStack.Demo.ServiceModel.dll
+E:\Github\ServiceStack.Demo\ServiceStack.Demo\ServiceStack.Demo.ServiceModel\bin\Debug\ServiceStack.Demo.ServiceModel.pdb
+E:\Github\ServiceStack.Demo\ServiceStack.Demo\ServiceStack.Demo.ServiceModel\bin\Debug\ServiceStack.Interfaces.dll
+E:\Github\ServiceStack.Demo\ServiceStack.Demo\ServiceStack.Demo.ServiceModel\obj\Debug\ServiceStack.Demo.ServiceModel.csprojResolveAssemblyReference.cache
+E:\Github\ServiceStack.Demo\ServiceStack.Demo\ServiceStack.Demo.ServiceModel\obj\Debug\ServiceStack.Demo.ServiceModel.dll
+E:\Github\ServiceStack.Demo\ServiceStack.Demo\ServiceStack.Demo.ServiceModel\obj\Debug\ServiceStack.Demo.ServiceModel.pdb
